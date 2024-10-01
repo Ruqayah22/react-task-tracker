@@ -1,8 +1,8 @@
-## Real Code 
+# Real Code 
 
 [react-crash-2021:](https://github.com/bradtraversy/react-crash-2021)
 
-# Build for production: 
+## Build for production: 
 
 1. npm run build (and enter)
 2. sudo npm i -g serve (and enter)
@@ -13,8 +13,17 @@
 - this is a production build. 
 - after it we can remove the folders but the project a still work fine. 
 
+* [Production Build](https://www.youtube.com/watch?v=BbncM2nzCso)
 
 
+## the package we used it: 
+
+1. npm i react-icons
+2. npm i react-router-dom
+3. npm i json-server
+- after install json-server package run (npm run server) 
+- the file will be created automatically called (db.json)
+- contains json data .
 
 
 

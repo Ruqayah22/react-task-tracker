@@ -71,39 +71,39 @@
 // export default Tasks
 
 // three 
-import Task from "./Task";
+// import Task from "./Task";
 
-const Tasks = ({ tasks, onDelete, onToggle }) => {
-  return (
-    <>
-      {tasks.map((task) => (
-        <Task
-          key={task.id}
-          task={task}
-          onDelete={onDelete}
-          onToggle={onToggle}
-        />
-      ))}
-    </>
-  );
-};
+// const Tasks = ({ tasks, onDelete, onToggle }) => {
+//   return (
+//     <>
+//       {tasks.map((task) => (
+//         <Task
+//           key={task.id}
+//           task={task}
+//           onDelete={onDelete}
+//           onToggle={onToggle}
+//         />
+//       ))}
+//     </>
+//   );
+// };
 
-export default Tasks;
+// export default Tasks;
 
 
 
 // final code : 
 
-// import Task from './Task'
+import Task from './Task'
 
-// const Tasks = ({ tasks, onDelete, onToggle }) => {
-//   return (
-//     <>
-//       {tasks.map((task, index) => (
-//         <Task key={index} task={task} onDelete={onDelete} onToggle={onToggle} />
-//       ))}
-//     </>
-//   )
-// }
+const Tasks = ({ tasks, onDelete, onToggle }) => {
+  return (
+    <>
+      {tasks.map((task, index) => (
+        <Task key={index} task={task} onDelete={onDelete} onToggle={onToggle} />
+      ))}
+    </>
+  )
+}
 
-// export default Tasks
+export default Tasks
