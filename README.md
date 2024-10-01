@@ -1,6 +1,21 @@
-## real code 
+## Real Code 
 
 [react-crash-2021:](https://github.com/bradtraversy/react-crash-2021)
+
+# Build for production: 
+
+1. npm run build (and enter)
+2. sudo npm i -g serve (and enter)
+3. should ask you to enter password (your computer password (that used it to login to your computer))
+4. serve -s build -p port (like 8000 or any port you want, then enter)
+5. in the browser write localhost:port (write the port you make it above)
+
+- this is a production build. 
+- after it we can remove the folders but the project a still work fine. 
+
+
+
+
 
 
 # Getting Started with Create React App
