@@ -1,6 +1,6 @@
-## crush code 
+## real code 
 
-[In the project directory, you can run:](https://github.com/bradtraversy/react-crash-2021)
+[react-crash-2021:](https://github.com/bradtraversy/react-crash-2021)
 
 
 # Getting Started with Create React App
