@@ -182,6 +182,7 @@ const App = () => {
     <Router>
       <div className="container">
         <Header
+          title="Task Tracker"
           onAdd={() => setShowAddTask(!showAddTask)}
           showAdd={showAddTask}
         />

@@ -25,7 +25,10 @@
 - the file will be created automatically called (db.json)
 - contains json data .
 
-
+## to make the project working (run and work good and save data ):
+1. run react by (npm start)
+2. run the server by (npm run server)
+3. both together.
 
 # Getting Started with Create React App
 
